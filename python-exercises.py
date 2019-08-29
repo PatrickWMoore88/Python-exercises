@@ -1,5 +1,17 @@
-print("Please fill in the blanks below: n\___(name)___'s favorite subject in school is ___(subject)___.")
-name= input('What is name? ')
-subject= input('What is subject? ')
-madlib= f"{name}'s favorite subject in school is {subject}."
-print(madlib)
+day = int(input('Day (0-6)? '))
+if day == 0:
+    print('Sunday')
+elif day == 1:
+    print('Monday')
+elif day == 2:
+    print('Tuesday')
+elif day == 3:
+    print('Wensday')
+elif day == 4:
+    print('Thursday')
+elif day == 5:
+    print('Friday')
+elif day == 6:
+    print('Saturday')
+else:
+    print('There are only 7 days a week.... Come on now!')  
