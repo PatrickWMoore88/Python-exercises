@@ -1,6 +1,4 @@
-day = int(input('Day (0-6)? '))
-if day == 1 or day == 2 or day == 3 or day == 4 or day == 5:
-    print('Go to work!')
-if day == 0 or day == 6:
-    print('Go back to bed!'.upper())
+temp_c=int(input("Temperature in C? "))
+temp_f= temp_c * 1.8 + 32
+print(f"{temp_f} F")
  
