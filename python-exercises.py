@@ -1,17 +1,6 @@
 day = int(input('Day (0-6)? '))
-if day == 0:
-    print('Sunday')
-elif day == 1:
-    print('Monday')
-elif day == 2:
-    print('Tuesday')
-elif day == 3:
-    print('Wensday')
-elif day == 4:
-    print('Thursday')
-elif day == 5:
-    print('Friday')
-elif day == 6:
-    print('Saturday')
-else:
-    print('There are only 7 days a week.... Come on now!')  
+if day == 1 or day == 2 or day == 3 or day == 4 or day == 5:
+    print('Go to work!')
+if day == 0 or day == 6:
+    print('Go back to bed!'.upper())
+ 
