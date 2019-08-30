@@ -13,7 +13,7 @@ while bottles_of_beer > 1:
     bottles_of_beer = bottles_of_beer -1
     print(f"{take_one} {bottles_of_beer} bottles of beer{on_the_wall}")
     time.sleep(3) #delays for 3 secs
-    print("==============")
+    print("=================================================================")
     #If statement for when we get to 1 bottle of beer
     if bottles_of_beer == 1:
         print(f"1 bottle of beer{on_the_wall}, 1 bottle of beer!")
@@ -21,7 +21,7 @@ while bottles_of_beer > 1:
         bottles_of_beer = bottles_of_beer -1
         print(f"Take it down and pass it around, no more bottles of beer {on_the_wall}")
         time.sleep(3) #delays for 3 secs
-        print("==============")
+        print("=================================================================")
     #Elif statement for when we get to 0 bottles of beer
     elif bottles_of_beer == 0:
         break
